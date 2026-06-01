@@ -9,5 +9,4 @@ router.get('/conversation/:conversationId', protect, getMessages);
 router.post('/send', protect, messageLimiter, replayProtection, sendMessage);
 router.put('/read/:conversationId', protect, markAsRead);
 router.get('/keys/:userId', protect, getKeyBundle);
-
 module.exports = router;
