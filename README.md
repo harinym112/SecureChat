@@ -21,7 +21,6 @@
 - [License](#license)
 
 ---
-
 ## Features
 
 - 🔒 **End-to-end encrypted** messages — the server never sees plaintext
